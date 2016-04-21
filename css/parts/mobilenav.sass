@@ -1,0 +1,38 @@
+#mobilewrap
+  position: fixed
+  display: none
+  height: 100%
+  max-width: 100%
+  background-color: rgba($dark-blue, 0.95)
+  top: 0
+  bottom: 0
+  z-index: 999
+
+.mobileactivator
+  display: none
+  z-index: 9999
+  position: absolute
+  top: 5px
+  left: 5px
+  color: $darkest-gray
+  padding: 0.65em 1em
+  border-radius: $base-border-radius
+  &:hover
+    color: $accent-color
+  @include media($small-screen)
+    display: block
+
+nav.mobile
+  text-align: center
+  padding: 3em 0
+  li
+    list-style: none
+    border-bottom: 1px solid $accent-color
+    &:last-child
+      border: none
+  a
+    text-transform: uppercase
+    padding: 0.7em 1.4em
+    display: block
+    &:hover
+      background-color: black

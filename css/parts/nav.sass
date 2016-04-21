@@ -1,0 +1,45 @@
+//navigation elements
+header.header
+  background-color: $dark-blue
+  .logo
+    @include span-columns(3)
+    @include media($small-screen)
+      display: none
+  h3
+    text-transform: uppercase
+    color: white
+    font-size: 100%
+    text-align: center
+    display: none
+    @include media($small-screen)
+      display: block
+  nav
+    @include span-columns(9)
+    padding: 0 0 0 2em
+    text-align: right
+    margin-top: 0.75em
+    @include media($small-screen)
+      text-align: center
+      display: none
+    .service
+      font-size: 85%
+    .main
+      text-align: left
+      margin-top: 2.8em
+    li
+      display: inline-block
+    a
+      @include transition (all 0.25s ease-in-out)
+      font-family: $nav-font-family
+      text-transform: uppercase
+      color: white
+      padding: 0.5em
+      border-radius: $base-border-radius
+      &:hover
+        @include transition (all 0.25s ease-in-out)
+        background-color: $primary-color
+        color: white
+    .current-menu-item a
+      @extend a
+      background-color: $primary-color
+
