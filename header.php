@@ -32,10 +32,9 @@
 	<div class="wrap">
 				<div class="logo">
 					<a href="<?php echo home_url(); ?>" class="logolink">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/7und1.svg" alt="7und1">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/worldcafe.svg" alt="worldcafe">
 					</a>
-					<p>Die Bremerhavener World Café Initiative</p>
-					<!-- <?php include("parts/7und1-logo.php"); ?> -->
+					<!-- <p>Die Bremerhavener World Café Initiative</p> -->
 				</div>
 				<nav>
 					<?php html5blank_nav(); ?>

@@ -4,7 +4,7 @@ body
 .wrap
   overflow: auto
   @include outer-container
-  padding: 1em
+  padding: 2em
   @include media($small-screen)
     padding: 1em
 
@@ -14,6 +14,7 @@ body
 .logo
   margin: 2em 0
   text-align: center
+  max-width: 450px
   p
     margin: 1em 0 0 0
 
@@ -23,11 +24,7 @@ nav
     li
       display: inline
       margin: 0 0.5em
-
 article
-  padding: 2em 6em
-  @include media($small-screen)
-    padding: 1em 0
 
 .copyright
   font-size: 85%
