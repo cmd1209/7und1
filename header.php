@@ -30,6 +30,7 @@
 			<!-- header -->
 <header class="header clear" role="banner">
 	<div class="wrap">
+				<a href="#" class="button anmelden-btn inactive">Anmelden</a>
 				<div class="logo">
 					<a href="<?php echo home_url(); ?>" class="logolink">
 						<img src="<?php echo get_template_directory_uri(); ?>/img/worldcafe.svg" alt="worldcafe">
